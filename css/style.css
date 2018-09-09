@@ -1,0 +1,268 @@
+/*PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN /
+PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN /
+PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN /PC FULL SCREEN / */
+
+.imageMe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.maintext{
+	max-width: 480px;
+	text-align: left;
+}
+
+.imageStyle{
+	width:88%;
+}
+
+.name{
+	font-size:64px!important;
+}
+
+.inline{
+	text-align: center;
+	width: 500px;
+	display: inline-block;
+	word-wrap: break-word;
+}
+
+.inlineButton{
+	text-align: center;
+	width: 500px;
+	word-wrap: break-word;
+	display: inline-block;
+}
+
+.titelpunkt{
+	margin-left:50px;
+	text-align: center; 
+	padding-bottom: 20px;
+	width: 500px;
+}
+
+.w3-content{
+ 	max-width:980px;
+ 	margin:auto
+}
+
+.data{
+	word-wrap: break-word;
+	display: inline-block;
+}
+
+
+.zoom:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+	transition: 0.3s;
+	transition: transform .2s;
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	color:#000!important;background-color:#9e9e9e!important;
+}
+
+.zoomin:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+ }
+
+.contactdetail{
+	font-size:32px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+	transition: opacity 0.3s;
+	font-size: 15px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*MOBILE DEVICE / MOBILE DEVICE /MOBILE DEVICE /MOBILE DEVICE /MOBILE DEVICE
+/MOBILE DEVICE/MOBILE DEVICE/MOBILE DEVICE/MOBILE DEVICE/MOBILE DEVICE/MOBILE DEVICE
+/MOBILE DEVICE/MOBILE DEVICE/MOBILE DEVICE/MOBILE DEVICE/MOBILE DEVICE/MOBILE DEVICE*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (orientation: portrait) {
+
+.text-box {
+	margin: 25px;
+}
+
+.left_me{
+	padding-top: 27px;
+}
+	
+.right_me{
+	padding-top: 0px;
+	padding-left:0px;
+}
+
+.name{
+	font-size:50px!important;
+}
+
+.imageStyle{
+	width: 100%;
+}
+
+.w3-col .m6{
+	width: 100%
+	
+}
+
+.titelberuf{
+	text-align: center;
+	width:100%;
+}
+
+.titelabout{
+	text-align: center;
+	width:100%;
+}
+
+.left_job1{
+	text-align: center;
+	padding-top:30px;
+}
+
+.right_job1{
+	float: right;
+	padding-top:58px;
+}
+
+.left_job2{
+	text-align: center;
+	padding-top:30px;
+}
+
+.right_job2{
+	float: right;
+	padding-top:58px;
+}
+
+.contacthome{
+	padding-top:60px;
+}
+
+.contactdetail{
+	font-size:20px;
+}
+
+} 
+
+
+/* Landscape Landscape Landscape Landscape Landscape Landscape Landscape*
+Landscape* Landscape* Landscape* Landscape* Landscape* Landscape* Landscape* Landscape*
+Landscape* Landscape* Landscape* Landscape* Landscape* Landscape* Landscape* Landscape*/
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 720px)
+  and (orientation: landscape) {
+
+.imageMe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:120px;
+}
+	
+.name{
+	font-size:50px!important;
+}
+	
+.imageStyle{
+	width: 100%;
+}
+
+.w3-col .m6{
+	width: 100%;
+}
+	
+.headerProject{
+	height: 580px;
+}
+	
+.inline2{
+	width: 550px;
+	padding-left: 85px;
+	text-align: center;
+	display: inline-block;
+}
+
+.beruf{
+	font-weight:normal;
+}
+
+.right_job1{
+	padding-top:30px;
+}
+
+.right_job2{
+	padding-top:30px;
+}
+
+.berufdata{
+	padding-top:0px;
+}
+
+.beruflandscape{
+	padding-top:30px;
+}
+
+.titelberuf{
+	width: 600px;
+	padding-left: 45px;
+	text-align: center;
+	display: inline-block;
+}
+
+.titelAboutMe{
+	width:100%;
+}
+
+.contactdetail{
+	font-size:25px;
+}
+
+.headerContact{
+	height:364px;
+}
+
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>MeinPortfolio Projekt</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/w3-style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-grey w3-large w3-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="../html/contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-grey w3-right">Kontakt</a>
+    <a href="../html/projects.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-grey w3-right">Projekte</a>
+
+
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white w3-right">Home</a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block  w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="../html/projects.html" class="w3-bar-item w3-border-top w3-card w3-button w3-padding-large">Projekte</a>
+    <a href="../html/contact.html" class="w3-bar-item  w3-card w3-button w3-padding-large">Kontakt</a>
+  </div>
+</div>
+
+
+<!-- Header -->
+<header class="w3-container w3-white w3-center headerProject" style="padding:100px 16px">
+  <h1 class="w3-margin name">Responsive Webseite</h1>
+  <p class="w3-xlarge">Programmiersprachen: HTML, CSS, Javascript</p>
+  <p><i>Hochgeladen am: 07.09.2018</i></p>
+</header>
+
+
+<!-- First Grid -->
+<div class="w3-grey w3-padding-64 w3-container" style="max-width:1280px; margin:auto; text-align: center;">
+    <h1 style="padding-top:32px;">Beschreibung</h1>
+    <h5 class="w3-padding-32 ">
+      Um mich besser vorzustellen, wollte ich eine Portfolio-Webseite erstellen.<br />
+      Dazu sollten meine Projekte auch auf der Webseite zusehen sein. Auf der Webseite<br />
+      sollte man mich besser kennenlernen und meine Erfahrungen in bestimmten Bereichen<br />
+      ansehen können. <br />
+      <p>Ausserdem sollte diese Portfolio meiner Bewerbung dienen, denn somit hat der Arbeitgeber <br />
+      die Möglichkeit alle wichtigen Informationen zu mir online anzusehen.</p>
+      <p>Diese Webseite sollte auf jedes Gerät funktionieren und überall gut aussehen, was bei<br />
+        einer Responsiven Webseite der Fall sein muss.
+    </p>
+
+    </h5>
+
+    <h3 style="padding-top:32px;">Hier können Sie sich den Quellcode des Projekts anschauen.</h3>
+    <h3 class="w3-margin" style="padding-top:32px;"><a href ="../projects/ResponsiveWebseite.zip" download ><b>ResponsiveWebseite.zip</b></a></h3>
+    <h3 style="padding-top:32px;">Hier können Sie sich das Projekt auf GitHub anschauen.</h3>
+    <h3 class="w3-margin" style="padding-top:32px;"><a href ="https://github.com/SharushanAtputharasa/ResponsiveWebsite_MyPortfolio"><b>Github ResponsiveWebseite</b></h3></a>
+
+    <h1 style="padding-top:32px;">Reflexion</h1>
+    <h5 class="w3-padding-32 ">
+      Mit der Implementierung kam ich schnell vorwärts, da ich schon eine klare<br />
+      Vorstellung über das Design hatte. Als ich die Webseite responsive machen<br />
+      wollte hatte ich aufwändige Probleme, die ich nach viel herumprobieren und testen<br />
+      gelöst habe. Ich bin sehr zufrieden mit dem Endprodukt.<br />
+    </h5>
+
+
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-16 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <a href="tel:078-751-65-70"><i class="fa fa-envelope w3-hover-opacity" style="font-size:40px"></i></a>
+    <a href="mailto:sharushan_a@hotmail.com?Subject=Kontaktaufnahme "><i class="fa fa-phone w3-hover-opacity" style="font-size:40px"></i></a>
+    <a href="https://github.com/SharushanAtputharasa"><i class="fa fa-github w3-hover-opacity" style="font-size:40px"></i></a>
+    <a href="https://www.linkedin.com/in/sharushan-atputharasa/"><i class="fa fa-linkedin w3-hover-opacity" style="font-size:40px" ></i></a>
+ </div>
+ <p>&copy; Sharushan Atputharasa 2018</p>
+</footer>
+
+
+<script>
+// JavaScript
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

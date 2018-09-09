@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<title>Kontakt</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/w3-style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-grey w3-large w3-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="../html/contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-grey w3-right">Kontakt</a>
+    <a href="../html/projects.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-grey w3-right">Projekte</a>
+
+
+    <a href="index.html" class="w3-bar-item  w3-button w3-padding-large w3-white w3-right">Home</a>
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block  w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="../html/projects.html" class="w3-bar-item w3-border-top w3-card w3-button w3-padding-large">Projekte</a>
+    <a href="../html/contact.html" class="w3-bar-item  w3-card w3-button w3-padding-large">Kontakt</a>
+  </div>
+</div>
+
+
+<!-- Header -->
+<header class="w3-container w3-white w3-center headerContact" style="padding:100px 16px">
+  <h1 class="w3-margin name">Kontakt</h1>
+  <p class="w3-xlarge">Wenn Sie Fragen haben, zögern Sie nicht, sie zu stellen.
+  </p>
+</header>
+
+
+<!-- First Grid -->
+<div class=" w3-grey w3-padding-32 w3-center w3-container">
+    <div class="w3-content contactdetail">
+      <p class="fa fa-map-marker w3-text-black zoomin">&nbsp &nbsp &nbsp &nbsp Mägenwil, AG </p><br>
+      <p class="fa fa-phone w3-text-black contactdetail zoomin tooltip "><a href="tel:078-751-65-70" style="text-decoration: none">&nbsp &nbsp &nbsp Handy: 078 751 65 70 <span class="tooltiptext">Click on Me!</span></a></p><br>
+      <p class="fa fa-envelope w3-text-black  contactdetail zoomin tooltip"><a href="mailto:sharushan_a@hotmail.com?Subject=Kontaktaufnahme " style="text-decoration: none " target="_top">&nbsp &nbsp &nbsp sharushan_a@hotmail.com <span class="tooltiptext">Click on Me!</span></a></p><br>
+    </div>
+
+</div>
+
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+       </div>
+      <div class="w3-col m6">
+
+      </p>
+    </div>
+
+
+    <div class="w3-col m6">
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-16 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <a href="tel:078-751-65-70"><i class="fa fa-envelope w3-hover-opacity" style="font-size:40px"></i></a>
+    <a href="mailto:sharushan_a@hotmail.com?Subject=Kontaktaufnahme "><i class="fa fa-phone w3-hover-opacity" style="font-size:40px"></i></a>
+    <a href="https://github.com/SharushanAtputharasa"><i class="fa fa-github w3-hover-opacity" style="font-size:40px"></i></a>
+    <a href="https://www.linkedin.com/in/sharushan-atputharasa/"><i class="fa fa-linkedin w3-hover-opacity" style="font-size:40px" ></i></a>
+ </div>
+ <p>&copy; Sharushan Atputharasa 2018</p>
+</footer>
+
+
+<script>
+// JavaScript
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
